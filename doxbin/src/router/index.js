@@ -9,11 +9,6 @@ const routes = [
     component: Home
   },
   {
-    path: '/search',
-    name: 'Search',
-    component: () => import('../views/Search.vue')
-  },
-  {
     path: '/dox/:id',
     name: 'Dox',
     component: () => import('../views/Dox.vue')
